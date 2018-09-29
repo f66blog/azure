@@ -1,6 +1,6 @@
 # Jupyter Fortran Kernel for MS Azure
 
-Need to set path for Python in kernel.json.
+Need to set path for Python in "kernel.json".
 
 ```
   "argv": [
@@ -23,6 +23,11 @@ import sys
 !{sys.executable} -m pip install  -e ../azure/jupyter-gfort-kernel --user
 ```
 
+After reload (F5), gfortran kernel will be added to menu Kernel->Change kernel.  
+
+### example notebook
+
+https://github.com/f66blog/fortran7/tree/master/examples
 
 ## references
 - https://jakevdp.github.io/blog/2017/12/05/installing-python-packages-from-jupyter/
