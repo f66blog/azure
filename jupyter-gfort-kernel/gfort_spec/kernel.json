@@ -1,0 +1,11 @@
+{
+  "argv": [
+    "/home/nbuser/.local/share/jupyter/kernels/python3/python3_path.sh",
+    "-m",
+    "jupyter_gfort_kernel",
+    "-f",
+    "{connection_file}"
+  ],
+  "display_name": "gfortran",
+  "language": "Fortran"
+}
